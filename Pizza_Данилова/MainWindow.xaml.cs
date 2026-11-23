@@ -18,11 +18,14 @@ namespace Pizza_Данилова
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
+    /// 
+    
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            frame.Navigate(new Pizza_Данилова.Layouts.Main());
         }
     }
 }
